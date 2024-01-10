@@ -8,16 +8,14 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    // Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
-    Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNTM1MDI1YzE5Y2UzOWU5ZmFhOWY3NTQ4N2U3NzRkOSIsInN1YiI6IjY0ZDg3YzcwMDAxYmJkMDBhZGQzMWVmYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tB51PspjU7ahFeEpVi3myy6k1c92o0NCIJwEOpUilnI" 
-
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const BG_URL =
-  "https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+  "https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg";
 
 export const SUPPORTED_LANGUAGES = [
   { identifier: "en", name: "English" },
@@ -25,6 +23,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
 ];
 
-// export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
-
-export const OPENAI_KEY = "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";
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
