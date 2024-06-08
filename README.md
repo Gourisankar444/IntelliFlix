@@ -1,3 +1,16 @@
+Homepage:
+![alt text](Screenshots/Home.jpg)
+
+Search:
+![alt text](Screenshots/Search.jpg)
+
+Login:
+![alt text](<Screenshots/Log In.jpg>)
+
+Sign Up:
+![alt text](<Screenshots/Sign Up.jpg>)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
